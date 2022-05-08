@@ -1,7 +1,8 @@
 import React from 'react'
 
-const Card = (props) => {
+const ListaPokemon = (props) => {
   const pokemon = props.data;
+  console.log(pokemon)
 
   return    <section>
 
@@ -21,4 +22,9 @@ const Card = (props) => {
 
   </section>
 };
-export default Card;
+export default ListaPokemon;
+
+
+
+
+
